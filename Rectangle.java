@@ -12,5 +12,11 @@ class Rectangle extends Shape {
         return length * width;
     }
 
+    @Override
+    double calculatePerimeter() {
+        return 2 * (length + width);
+    }
+}
+
   
 
