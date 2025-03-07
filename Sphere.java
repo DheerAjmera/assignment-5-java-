@@ -5,3 +5,8 @@ class Sphere extends Shape implements Volume {
         super("Sphere");
         this.radius = radius;
     }
+
+    @Override
+    double calculateArea() {
+        return 4 * Math.PI * radius * radius;
+    }
