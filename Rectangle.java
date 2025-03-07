@@ -7,5 +7,10 @@ class Rectangle extends Shape {
         this.width = width;
     }
 
+    @Override
+    double calculateArea() {
+        return length * width;
+    }
+
   
 
