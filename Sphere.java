@@ -15,3 +15,8 @@ class Sphere extends Shape implements Volume {
     double calculatePerimeter() {
         return 0;  // Spheres don't have a perimeter
     }
+
+    @Override
+    public double calculateVolume() {
+        return (4.0 / 3) * Math.PI * Math.pow(radius, 3);
+    }
