@@ -22,3 +22,10 @@ class Cylinder extends Shape implements Volume {
         return Math.PI * radius * radius * height;
     }
 
+    @Override
+    public void displayResults() {
+        super.displayResults();
+        System.out.println("Volume: " + calculateVolume());
+    }
+}
+
