@@ -11,3 +11,9 @@ class Square extends Shape {
         return side * side;
     }
 
+    @Override
+    double calculatePerimeter() {
+        return 4 * side;
+    }
+}
+
