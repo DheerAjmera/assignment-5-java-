@@ -25,3 +25,10 @@ class EquilateralPyramid extends Shape implements Volume {
         return (1.0 / 3) * (baseSide * baseSide) * height;
     }
 
+     @Override
+    public void displayResults() {
+        super.displayResults();
+        System.out.println("Volume: " + calculateVolume());
+    }
+}
+
