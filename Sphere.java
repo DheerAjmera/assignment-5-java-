@@ -20,3 +20,10 @@ class Sphere extends Shape implements Volume {
     public double calculateVolume() {
         return (4.0 / 3) * Math.PI * Math.pow(radius, 3);
     }
+
+     @Override
+    public void displayResults() {
+        super.displayResults();
+        System.out.println("Volume: " + calculateVolume());
+    }
+}
